@@ -1,127 +1,243 @@
-<!DOCTYPE HTML>
-<!--
-	Big Picture by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>	Midhun Murukesh </title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Midhun Murukesh | Climate Data Scientist</title>
+<meta name="description" content="Portfolio of Midhun Murukesh, PMRF PhD candidate at IISER Bhopal working on deep learning based precipitation downscaling, explainable AI, and climate extremes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-		<!-- Header -->
-			<header id="header">
-				<h1>Midhun Murukesh</h1>
-				<nav>
-					<ul>
-						<li><a href="#intro">Intro</a></li>
-						<li><a href="#one">	Brief Bio</a></li>
-						<li><a href="#two">CV</a></li>
-						<li><a href="#work">My Work</a></li>
-					</ul>
-				</nav>
-			</header>
+<div id="progress-bar"></div>
 
-		<!-- Intro -->
-			<section id="intro" class="main style1 dark fullscreen">
-				<div class="content">
-					<header>
-						<h2>Midhun Murukesh</h2>
-					</header>
-					<p> <i>Prime Minister's Research Fellow</i></br>
-						<a href="http://home.iiserb.ac.in/~kumarp/">
-						 Climate and Glacier Modelling Lab</a> </br>
-						 Department of Earth and Environmental Sciences </br>
-						 Indian Institute of Science Education and Research, Bhopal
-					</p>
-					<footer>
-						<a href="#one" class="button style2 down">More</a>
-					</footer>
-				</div>
-			</section>
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo">MM<span>.</span></a>
+    <button id="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 
-		<!-- One -->
-			<section id="one" class="main style2 right dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>Hello</h2>
-					</header>
-					<p>Thank you for visiting my portfolio. I am <strong>Midhun Murukesh</strong>,
-						 Prime Minister's Research Fellow at <a href="http://home.iiserb.ac.in/~kumarp/">
-							 Climate and Glacier Modelling Lab</a> <i>, IISER Bhopal</i>, under the guidance of<b> Dr Pankaj Kumar </b> </a>.</p>
-				</div>
-				<a href="#two" class="button style2 down anchored">Next</a>
-			</section>
+<header id="home" class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-content">
+    <p class="eyebrow">$ whoami</p>
+    <h1>Midhun Murukesh</h1>
+    <p class="tagline">Prime Minister's Research Fellow (PMRF) &middot; PhD Candidate, Earth &amp; Environmental Sciences, IISER Bhopal</p>
+    <p class="hero-desc">I work at the intersection of <strong>deep learning</strong> and <strong>climate science</strong>&mdash;building physically interpretable neural networks for precipitation downscaling, evaluating climate model projections, and applying explainable AI to understand what these models actually learn.</p>
+    <div class="hero-actions">
+      <a href="#publications" class="btn btn-primary">View Publications</a>
+      <a href="#contact" class="btn btn-outline">Get in Touch</a>
+    </div>
+    <p class="quote">&ldquo;Knowledge from data. Data from knowledge!&rdquo;</p>
+  </div>
+  <a href="#about" class="scroll-cue" aria-label="Scroll down">&darr;</a>
+</header>
 
-		<!-- Two -->
-		<section id="two" class="main style2 left dark fullscreen">
-			<div class="content box style2">
-				<header>
-					<h2>CV</h2>
-				</header>
-				<ul>
-					<li>PhD (August 2020 - Present): Department of Earth and Environmental Science, IISER Bhopal (CPI: 9.5/10)</li>
-					<li>M.Sc. Atmospheric Science: Central University of Rajasthan, 2017-2019 (CGPA: 8.1/10)</li>
-					<li>B.Sc. Physics: Mahatma Gandhi University, Kottayam, 2014-2017 (CCPA: 9.14/10)</li>
-				</ul>
-			</div>
-			<a href="#work" class="button style2 down anchored">Next</a>
-		</section>
+<main>
 
+<section id="about" class="section">
+  <div class="section-inner">
+    <h2 class="section-title"><span class="idx">01</span> About</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I am Midhun Murukesh, a PMRF candidate at the <strong>Climate and Glacier Modelling Lab</strong> (Thesis Guide: Dr. Pankaj Kumar, Associate Professor), Department of Earth and Environmental Sciences, Indian Institute of Science Education and Research (IISER) Bhopal.</p>
+        <p>My research focuses on precipitation downscaling, hydro-climate extremes, and physically interpretable deep learning models&mdash;bridging artificial intelligence and climate science to improve regional climate projections over India and beyond.</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="tl-year">2020&ndash;Present</span>
+          <span class="tl-title">PhD, Earth and Environmental Sciences</span>
+          <span class="tl-sub">IISER Bhopal</span>
+        </div>
+        <div class="timeline-item">
+          <span class="tl-year">2017&ndash;2019</span>
+          <span class="tl-title">MSc, Atmospheric Science</span>
+          <span class="tl-sub">Central University of Rajasthan</span>
+        </div>
+        <div class="timeline-item">
+          <span class="tl-year">2014&ndash;2017</span>
+          <span class="tl-title">BSc, Physics</span>
+          <span class="tl-sub">Mahatma Gandhi University, Kottayam</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-		<!-- Work -->
-			<section id="work" class="main style3 primary">
-				<div class="content">
-					<header>
-						<h2>My Work</h2>
-						<p>My research works focusses on the integration of Artificial Intelligence/Deep Learning/Machine Learning techniques into the existing weather and climate modelling framework.</p>
-					</header>
+<section id="research" class="section alt">
+  <div class="section-inner">
+    <h2 class="section-title"><span class="idx">02</span> Research Highlights</h2>
+    <p class="section-lead">Bridging Artificial Intelligence and Climate Science</p>
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">🌏</div>
+        <h3>Regional Climate Impacts</h3>
+        <p>Regional impacts of climate change over India, with a focus on how large-scale change signals translate to local hydro-climate risk.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🌧️</div>
+        <h3>Precipitation Extremes</h3>
+        <p>Analyzing precipitation extremes under a changing climate using observational, reanalysis, satellite, and CMIP6 datasets.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🧠</div>
+        <h3>Explainable AI</h3>
+        <p>Physics-informed machine learning and attribution methods (e.g., Integrated Gradients) to interpret what downscaling models learn.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔍</div>
+        <h3>Super-Resolution Networks</h3>
+        <p>Image super-resolution neural networks (CNNs, GANs) for spatial downscaling and reconstruction of gridded rainfall data.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔁</div>
+        <h3>Transfer &amp; Zero-Shot Learning</h3>
+        <p>Transfer learning, data augmentation, and zero-shot precipitation downscaling across global climate regimes.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🛰️</div>
+        <h3>Next-Gen Climate Tools</h3>
+        <p>Developing next-generation tools and reproducible Python/Bash workflows for large-scale climate data analysis.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-					<!-- Gallery -->
-						<div class="gallery">
-							<article class="from-left">
-								<a href="images/fulls/Climate.jpg" class="image fit"><img src="images/fulls/Climate.jpg" title="Climate Science Perspective" alt="" /></a>
-							</article>
-							<article class="from-right">
-								<a href="images/fulls/AI.jpg" class="image fit"><img src="images/fulls/AI.jpg" title="Artificial Intelligence Perspective" alt="" /></a>
-							</article>
-						</div>
+<section id="publications" class="section">
+  <div class="section-inner">
+    <h2 class="section-title"><span class="idx">03</span> Publications</h2>
 
-				</div>
-			</section>
+    <div class="pub-group">
+      <h3 class="pub-group-title">Peer-Reviewed Journal Articles</h3>
+      <ul class="pub-list">
+        <li>
+          <span class="pub-text">Murukesh, M., &amp; Kumar, P. (2026). Robust deep learning-based downscaling of mean and extreme precipitation over the Indian subcontinent. <em>Environmental Research: Climate</em>.</span>
+          <a class="pub-link" href="https://doi.org/10.1088/2752-5295/ae6885" target="_blank" rel="noopener">DOI &rarr;</a>
+        </li>
+        <li>
+          <span class="pub-text">Golla, S., Murukesh, M., &amp; Kumar, P. (2024). Comparative Assessment of Image Super-Resolution Techniques for Spatial Downscaling of Gridded Rainfall Data. <em>SN Computer Science</em>, 5(3), 312.</span>
+          <a class="pub-link" href="https://doi.org/10.1007/s42979-024-02653-3" target="_blank" rel="noopener">DOI &rarr;</a>
+        </li>
+        <li>
+          <span class="pub-text">Murukesh, M., Golla, S., &amp; Kumar, P. (2024). Downscaling and reconstruction of high-resolution gridded rainfall data over India using deep learning-based generative adversarial network. <em>Modeling Earth Systems and Environment</em>, 10(2), 2221&ndash;2237.</span>
+          <a class="pub-link" href="https://doi.org/10.1007/s40808-023-01899-9" target="_blank" rel="noopener">DOI &rarr;</a>
+        </li>
+      </ul>
+    </div>
 
+    <div class="pub-group">
+      <h3 class="pub-group-title">Other Articles</h3>
+      <ul class="pub-list">
+        <li>
+          <span class="pub-text">Kumar, P., Javed, A., Kolli, R. K., Sachan, D., Dinesh, A. S., Murukesh, M., Sharma, J., Giri, R. K., Pattanaik, D. R., Jha, S. K., Ramamurthy, B., &amp; Mishra, G. (2023). National Colloquium for Advances in Weather and Climate Prediction and Climate Change Projection over South Asia: Applications in Water and Agriculture Sectors. <em>Bulletin of the American Meteorological Society</em>, 104(9), E1564&ndash;E1569.</span>
+          <a class="pub-link" href="https://doi.org/10.1175/BAMS-D-23-0128.1" target="_blank" rel="noopener">DOI &rarr;</a>
+        </li>
+      </ul>
+    </div>
 
-		<!-- Footer -->
-			<footer id="footer">
+    <div class="pub-group">
+      <h3 class="pub-group-title">Manuscripts &amp; Preprints</h3>
+      <ul class="pub-list">
+        <li><span class="pub-text">Murukesh, M., Kumar, P., &amp; Sujit, P. B. (2026). Skill-Equivalent Deep Learning Models Learn Physically Distinct Attribution Patterns in Precipitation Downscaling. <em>Geophysical Research Letters</em>.</span></li>
+        <li><span class="pub-text">Murukesh, M., &amp; Kumar, P. (2026). Physically Interpretable Deep Learning Models for Precipitation Downscaling: Insights from Explainable AI over India. <em>International Journal of Climatology</em> (under review).</span></li>
+        <li>
+          <span class="pub-text">Murukesh, M., &amp; Kumar, P. (2026). Zero-Shot Precipitation Downscaling Across Global Climate Regimes Using a Foundation-Style Deep Learning Framework. <em>Earth and Space Science</em> (under review).</span>
+          <a class="pub-link" href="https://doi.org/10.22541/essoar.176910900.06121063/v1" target="_blank" rel="noopener">DOI &rarr;</a>
+        </li>
+        <li><span class="pub-text">Kumari, A., Kumar, P., &amp; Murukesh, M. (2025). Unraveling Changes in Precipitation Extremes over India using CMIP6 Models. <em>Pure and Applied Geophysics</em> (under review).</span></li>
+      </ul>
+    </div>
 
-				<!-- Icons -->
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.linkedin.com/in/m-midhun/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+    <div class="pub-group">
+      <h3 class="pub-group-title">Conference Papers &amp; Presentations</h3>
+      <ul class="pub-list">
+        <li>
+          <span class="pub-text">Murukesh, M., &amp; Kumar, P. (2025). Comparative analysis of deep learning architectures trained for downscaling gridded precipitation across India. <em>EGU General Assembly 2025</em>, Vienna, Austria (oral).</span>
+          <a class="pub-link" href="https://doi.org/10.5194/egusphere-egu25-676" target="_blank" rel="noopener">DOI &rarr;</a>
+        </li>
+        <li><span class="pub-text">Murukesh, M., Kumar, P., &amp; Gupta, R. P. (2024). Are deep learning methods viable for precipitation downscaling over the highly complex terrain of the Western Himalayas? <em>AOGS 21st Annual Meeting</em>, Pyeongchang, South Korea (oral).</span></li>
+        <li>
+          <span class="pub-text">Murukesh, M., &amp; Kumar, P. (2024). Downscaling and reconstruction of high-resolution precipitation fields using a deep residual neural network: An assessment over Indian subcontinent. <em>EGU 2024</em>, Vienna, Austria (poster).</span>
+          <a class="pub-link" href="https://doi.org/10.5194/egusphere-egu24-2552" target="_blank" rel="noopener">DOI &rarr;</a>
+        </li>
+        <li>
+          <span class="pub-text">Kumar, P., &amp; Murukesh, M. (2024). Deep learning-based super-resolution generative adversarial network for gridded precipitation downscaling across India. <em>EGU 2024</em>, Vienna, Austria (poster).</span>
+          <a class="pub-link" href="https://doi.org/10.5194/egusphere-egu24-1590" target="_blank" rel="noopener">DOI &rarr;</a>
+        </li>
+        <li>
+          <span class="pub-text">Murukesh, M. (2023). Statistical Downscaling of Gridded Precipitation across India using Super-resolution Generative Adversarial Network (SRGAN). <em>39th M.P. Young Scientist Congress</em>, Gwalior, India (oral).</span>
+          <a class="pub-link" href="https://www.mpysc.in/Abstracts_39th_MPYSC.pdf" target="_blank" rel="noopener">Abstract &rarr;</a>
+        </li>
+        <li><span class="pub-text">Murukesh, M., &amp; Kumar, P. (2023). A comprehensive intercomparison of novel deep learning techniques for super-resolution bias-correction of gridded precipitation. <em>AGU Annual Meeting 2023</em>, San Francisco, CA (poster, virtual).</span></li>
+        <li>
+          <span class="pub-text">Murukesh, M., &amp; Kumar, P. (2023). Investigating the impact of custom loss functions to train a deep neural network for downscaling gridded precipitation data. <em>ICRC-CORDEX 2023</em>, IITM Pune (oral).</span>
+          <a class="pub-link" href="https://icrc-cordex2023.tropmet.res.in/session-a4-a5.php" target="_blank" rel="noopener">Session &rarr;</a>
+        </li>
+        <li><span class="pub-text">Murukesh, M., &amp; Kumar, P. (2023). Evaluating the transferability of a deep learning technique to downscale gridded precipitation data. <em>International Climate Research Conclave 2023</em>, IIT Bombay (poster).</span></li>
+        <li><span class="pub-text">Murukesh, M., Golla, S., &amp; Kumar, P. (2023). Downscaling gridded rainfall across India using deep learning-based generative adversarial networks. <em>103rd AMS Annual Meeting</em>, Denver, CO (oral, virtual).</span></li>
+        <li>
+          <span class="pub-text">Murukesh, M., Golla, S., &amp; Kumar, P. (2022). Spatial downscaling of IMD gridded rainfall using generative adversarial networks. <em>TROPMET-2022</em>, IISER Bhopal (oral).</span>
+          <a class="pub-link" href="https://conf.iiserb.ac.in/TROPMET/file/Abstract_book_final.pdf" target="_blank" rel="noopener">Abstract &rarr;</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-					</ul>
+<section id="awards" class="section alt">
+  <div class="section-inner">
+    <h2 class="section-title"><span class="idx">04</span> Fellowships &amp; Awards</h2>
+    <ul class="award-list">
+      <li><span class="award-year">2021</span><span>Prime Minister's Research Fellows (PMRF) Scheme, Government of India (May 2021 Cycle)</span></li>
+      <li><span class="award-year">2019</span><span>DST-INSPIRE Fellowship, Department of Science and Technology (DST), Government of India</span></li>
+      <li><span class="award-year">2019</span><span>University Gold Medal and MSc First Rank, Central University of Rajasthan</span></li>
+      <li><span class="award-year">2018</span><span>Summer Research Fellowship Program (SRFP), Indian Academy of Sciences (IASc), Bangalore</span></li>
+      <li><span class="award-year">2014</span><span>DST-INSPIRE Scholarship for Higher Education, Department of Science and Technology (DST), Government of India</span></li>
+      <li><span class="award-year">2014</span><span>Prathibha Scholarship, Kerala State Council for Science, Technology and Environment (KSCSTE), Government of Kerala</span></li>
+    </ul>
+  </div>
+</section>
 
-				<!-- Menu -->
-					<ul class="menu">
-						<li>&copy;midhunmachari 2021</li><!---<li>Design: <a> Created by midhunmachari </a> </li>--->
-					</ul>
+<section id="contact" class="section">
+  <div class="section-inner">
+    <h2 class="section-title"><span class="idx">05</span> Contact</h2>
+    <p class="section-lead">Interested in collaboration on precipitation downscaling, explainable AI, or climate extremes? Let's connect.</p>
+    <div class="contact-links">
+      <a href="https://sites.google.com/iiserb.ac.in/m-midhun" target="_blank" rel="noopener" class="contact-item">
+        <span class="contact-label">Academic Site</span>
+        <span class="contact-value">sites.google.com/iiserb.ac.in/m-midhun</span>
+      </a>
+      <a href="https://www.linkedin.com/in/m-midhun" target="_blank" rel="noopener" class="contact-item">
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">linkedin.com/in/m-midhun</span>
+      </a>
+      <a href="https://www.iiserb.ac.in/" target="_blank" rel="noopener" class="contact-item">
+        <span class="contact-label">Institute</span>
+        <span class="contact-value">IISER Bhopal, Madhya Pradesh, India</span>
+      </a>
+    </div>
+  </div>
+</section>
 
-			</footer>
+</main>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+<footer>
+  <p>&copy; <span id="year"></span> Midhun Murukesh. Built with HTML, CSS &amp; JS &mdash; hosted on GitHub Pages.</p>
+</footer>
 
-	</body>
+<script src="script.js"></script>
+</body>
 </html>
